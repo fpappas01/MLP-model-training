@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": [
+        "test",
+        "ex1",
+        "data",
+        "ex2",
+        "main"
+    ],
+    "java.project.referencedLibraries": [
+        "d:\\FPFS\\Work\\Πανεπιστήμιο\\6ο-ΧΕΙΜΕΡΙΝΟ\\Υπολογιστική Νοημοσύνη\\Project\\project_4773_4588\\CompIntel_2024_2025\\lib\\junit-platform-console-standalone-1.11.3.jar"
+    ]
+}
