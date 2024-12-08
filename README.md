@@ -6,10 +6,7 @@ Computational Intelligence (ΜΥΕ035) team project for year 2024 - 2025
 - [Project Overview](#project-overview)
 - [Exercises](#exercises)
 - [Directory Structure](#directory-structure)
-- [Requirements](#requirements)
 - [Compilation and Execution](#compilation-and-execution)
-- [Submission Guidelines](#submission-guidelines)
-- [Team Information](#team-information)
 
 ---
 
@@ -37,7 +34,7 @@ The project comprises two main tasks:
 - **Tasks**:
   - Implement PT2 and PT3 with configurable parameters:
     - Hidden layer neurons (\( H_1, H_2, H_3 \)).
-    - Activation functions (`tanh` or `ReLU`).
+    - Activation functions (`tanh` and `sigmoid`).
   - Train and evaluate models using gradient descent with mini-batches.
   - Compare and analyze performance.
 
@@ -53,4 +50,16 @@ The project comprises two main tasks:
 ---
 
 ## Directory Structure
+The project has 4 folders:
+
+1. **data/**: Initializes the required datasets:
+   - **SDT**: Dataset for the classification problem.
+   - **SDO**: Dataset for the clustering problem.
+
+2. **ex1/**: Contains the implementation for Exercise 1 (classification using Multi-Layer Perceptrons).
+
+3. **ex2/**: Contains the implementation for Exercise 2 (clustering using the K-Means algorithm).
+
+4. **main/**: Contains the main method (as implemented in Java). The execution of the program starts here.
+
 
